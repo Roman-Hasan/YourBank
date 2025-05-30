@@ -6,3 +6,21 @@ body{
 }
 
 
+@theme{
+    --color-primary: #CAFF33;
+}
+
+@layer components{
+    .button{
+        color:#1C1C1C;
+        background-color: #CAFF33;
+        padding: 14px 24px; 
+        border-radius: 50px; 
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+    }
+
+    .button:hover{
+        background-color: #d1d1d1;
+    }
+}
